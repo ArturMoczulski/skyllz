@@ -3,7 +3,10 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('frontendApp'));
+  beforeEach(module('skyllzFrontendApp'));
+  beforeEach(module('ui.bootstrap'));
+  //beforeEach(module('firebase'));
+  //beforeEach(module('firebase-simple-login'));
 
   var MainCtrl,
     scope;
